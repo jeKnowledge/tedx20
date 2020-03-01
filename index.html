@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/geral.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="js/navbar.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEDxUniversidadedeCoimbra</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class='nav'>
+        <div class='logo'>
+          <a href="index.html"><img src="img/uclogo.png" width="186" height="42"></a>
+        </div>
+        <ul class="nav_1">
+          <li><a href="tedtedx.html">TED & TEDx</a></li>
+          <li><a href="orators.html">ORADORES</a></li>
+          <li><a href="program.html">PROGRAMA</a></li>
+          <li><a href="partners.html">PARCEIROS</a></li>
+          <li><a href="team.html">EQUIPA</a></li>
+          <li><a href="tickets.html">BILHETES</a></li>
+          <li><a href="anemia.html">ANEMIA</a></li>
+          <li><a href="#">EDIÇÃO ANTERIOR</a></li>
+        </ul>
+        <div class="nav_2">
+          <label for="toggle">&#9776;</label>
+          <input type="checkbox" id="toggle" />
+          <div class="menu">
+            <a href="tedtedx.html">TED & TEDx</a>
+            <a href="orators.html">ORADORES</a>
+            <a href="program.html">PROGRAMA</a>
+            <a href="partners.html">PARCEIROS</a>
+            <a href="team.html">EQUIPA</a>
+            <a href="tickets.html">BILHETES</a>
+            <a href="anemia.html">ANEMIA</a>
+            <a href="#">EDIÇÃO ANTERIOR</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home">
+      <img src="img/title.svg" alt="title">
+    </section>
+
+    <section id="about">
+      <div class="text aos-init aos-animate" data-aos="fade-zoom-in">
+        <h3 class="fir" style="font-size:28px; color:#E62B1E; font-weight:bold">
+          TEDx<span style="color:#FFFFFF ">UniversidadedeCoimbra</span></h3>
+        <h3 class="sec" style="font-size:16px; color:#E62B1E; font-weight:bold">
+          TEDx<span style="color:#FFFFFF ">UniversidadedeCoimbra</span></h3>
+        <p>Coimbra, cidade dos estudantes, do Mondego e da cultura. Estudantes que fazem história. Mondego que se renova. Cultura que não dorme.</p>
+        <p>Coimbra respira, sente e luta. Tem dentro de si a mudança e os estudantes que a alimentam. Só estuda em Coimbra quem tem vontade de fazer mais, quem não se conforma com o estabelecido, quem luta e reivindica os seus direitos, quem nasce
+          com o inconformismo a correr nas veias.</p>
+        <p>É este o antídoto para a mudança, o motor para a denúncia das injustiças, o oxigénio para a vida dos estudantes.
+          Não é por pouco que nos diferenciamos há mais de 100 anos. Que somos conhecidos pela nossa luta e forma de questionar o inquestionável. Que esperam de nós o melhor da diferença. E é isso que entregamos.
+          Aliamos os valores da clássica Universidade de Coimbra com as engrenagens das mudanças do seculo XXI, espelhadas num evento cheio de ideias que merecem ser partilhadas!
+          Inconformismo é palavra de ordem e o tema do primeiro TEDxUniversidadedeCoimbra, de estudantes para ti.</p>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="container_news">
+
+        <div class="new">
+          <div class="news_text">
+            <p>As inscrições ainda não estão abertas. Fica atento!</p>
+          </div>
+          <img class="mySlides" src="img/new1.jpg" style="width:100%">
+        </div>
+
+        <div class="new">
+          <div class="news_text">
+            <p>O Teatro da Cerca de São Bernardo vai acolher todas as Talks e Performances!</p>
+          </div>
+          <img class="mySlides" src="img/new2.jpg" style="width:100%">
+        </div>
+
+        <div class="new">
+          <div class="news_text">
+            <p>Arlindo Oliveira é o mais recente orador a ser confirmado, não percas!</p>
+          </div>
+          <img class="mySlides" src="img/new3.jpg" style="width:100%">
+        </div>
+      </div>
+
+
+
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("new");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {
+            myIndex = 1
+          }
+          x[myIndex - 1].style.display = "block";
+          setTimeout(carousel, 5000);
+        }
+      </script>
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      delay: 50,
+    });
+  </script>
+
+  <footer id="footer">
+    <div class="container_contact">
+      <div class="left">
+        <div class="social">
+          <a href="https://www.facebook.com/tedxuniversidadedecoimbra/"><img src="img/fb.png" height="30"></a>
+          <a href="https://www.flickr.com/photos/146404210@N08/"><img src="img/fk.png" height="30"></a>
+          <a href="https://www.instagram.com/tedxuniversidadedecoimbra/"><img src="img/ig.png" height="30"></a>
+          <a href="mailto:tedxuniversidadedecoimbra@nemaac.net"><img src="img/ml.png" height="30"></a>
+        </div>
+        <p>Pólo das Ciências da Saúde da Universidade de Coimbra<br>Unidade Central, Piso -1<br>Azinhaga de Santa Comba, Celas<br>3000-548 Coimbra</p>
+      </div>
+      <div class="right">
+        <img src="img/qrcode.png" width="50">
+        <p>This independent TEDx event is operated under license from TED.</p>
+      </div>
+    </div>
+
+    <div class="contact_mobile">
+      <div class="leftM">
+        <div class="social">
+          <a href="https://www.facebook.com/tedxuniversidadedecoimbra/"><img src="img/fb.png" height="25"></a>
+          <a href="https://www.flickr.com/photos/146404210@N08/"><img src="img/fk.png" height="25"></a>
+          <a href="https://www.instagram.com/tedxuniversidadedecoimbra/"><img src="img/ig.png" height="25"></a>
+          <a href="mailto:tedxuniversidadedecoimbra@nemaac.net"><img src="img/ml.png" height="25"></a>
+        </div>
+      </div>
+      <div class="midM">
+        <p>This independent TEDx event is operated under license from TED.</p>
+      </div>
+      <div class="rightM">
+        <img src="img/qrcode.png" width="50">
+      </div>
+    </div>
+
+    <div class="container_credit">
+      <p>© jeKnowledge 2019. ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
