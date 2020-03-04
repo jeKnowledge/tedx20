@@ -9,14 +9,16 @@
   flex-direction: column;
   align-items: center;
 }
-#home_orators h3{
+
+#home_orators h3 {
   color: #ffffff;
   text-align: center;
   padding-top: 140px;
   font-size: 3em;
 }
-#home_orators h3::after{
-  content:'';
+
+#home_orators h3::after {
+  content: '';
   display: flex;
   height: 3px;
   text-align: center;
@@ -24,33 +26,58 @@
   background-color: #E62B1E;
   margin-top: 5px;
 }
+
 @media screen and (max-width: 840px) {
- #home_orators h3{
+  #home_orators h3 {
     font-size: 2em;
   }
 }
 
 /*--------------------------ORATORS---------------------*/
-#orators-list{
+#orators-list {
   height: auto;
   padding-bottom: 10%;
 }
-.orators-container{
+
+.orators-container {
   display: flex;
   justify-content: space-around;
   margin-top: 8%;
 }
-.orator{
+
+.orator {
+  width: auto;
+  width: 55%;
   position: relative;
-  transition: 0.3s ease;
   text-align: center;
 }
-.orator img{
+
+.orator img {
   width: 55%;
+  transition: 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;
 }
-.orator:hover{
+
+.orator p {
+  background-color: #E62B1E;
+  padding: 2%;
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.orName{
+  display: none;
+}
+
+.orator img:hover {
   transform: scale(1.05, 1.05);
-}
-.orator img:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.9;
+}
+
+.orator img:hover ~ .orName, .orator p:hover {
+  display: block;
 }
