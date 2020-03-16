@@ -24,17 +24,23 @@
 
 /*----------------------ABOUT------------------------*/
 #about {
-  height: 446px;
-  background: #000000;
+  height: auto;
+  padding: 5vh 0 10vh 0;
+  background: #000;
 }
 #about h3 {
-  padding-bottom: 20px;
+  padding: 2%;
+}
+#about p{
+  padding: 0 2% 2% 2%;
 }
 #about .text {
-  font-weight: lighter;
-  font-size: 1em;
-  padding: 100px 220px 0px 220px;
-  color: #ffffff;
+  width: 80vw;
+  height: auto;
+  margin: 10vh 10vw;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 4px 2px 16px rgba(100, 100, 100, 0.48), -4px -2px 16px #202020;
 }
 #about .sec {
   display: none;
@@ -42,9 +48,7 @@
 
 @media screen and (max-width: 1200px) {
   #about .text {
-    padding: 40px;
-    padding-top: 140px;
-    font-size: 12px;
+
   }
   #about .sec {
     display: inherit;
@@ -55,14 +59,12 @@
 }
 @media screen and (max-width: 580px) {
     #about .text {
-      padding-top: 50px;
+
     }
   }
 @media screen and (max-width: 320px) {
   #about .text {
-    padding-top: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
+
   }
 }
 
@@ -77,8 +79,10 @@
   color: #ffffff;
   position: absolute;
   font-size: 1.2em;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
   padding: 40px 40px 40px 40px;
+  border-radius: 5px;
+  margin-left: -5px;
   top: 400px;
 }
 .news_text p {
