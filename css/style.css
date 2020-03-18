@@ -32,15 +32,15 @@
   padding: 2%;
 }
 #about p{
+  color: #fff;
   padding: 0 2% 2% 2%;
+  font-weight: lighter;
 }
 #about .text {
   width: 80vw;
   height: auto;
-  margin: 10vh 10vw;
-  background: #fff;
+  margin: 4vh 10vw 12vh 10vw;
   border-radius: 5px;
-  box-shadow: 4px 2px 16px rgba(100, 100, 100, 0.48), -4px -2px 16px #202020;
 }
 #about .sec {
   display: none;
