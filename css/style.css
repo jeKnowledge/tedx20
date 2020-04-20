@@ -25,7 +25,7 @@
 /*----------------------ABOUT------------------------*/
 #about {
   height: auto;
-  padding: 5vh 0 10vh 0;
+  padding: 5vh 0;
   background: #000;
 }
 #about h3 {
@@ -33,13 +33,13 @@
 }
 #about p{
   color: #fff;
-  padding: 0 2% 2% 2%;
+  padding: 0 2%;
   font-weight: lighter;
 }
 #about .text {
   width: 80vw;
   height: auto;
-  margin: 4vh 10vw 12vh 10vw;
+  margin: 4vh 10vw;
   border-radius: 5px;
 }
 #about .sec {
@@ -67,6 +67,34 @@
 
   }
 }
+
+/*----------------------SOCIAL------------------------*/
+#social {
+  height: auto;
+  background: #000;
+}
+.social-container{
+  padding: 2.5% 0 4.5% 0;
+  display: flex;
+  justify-content:center;
+}
+.social-net{
+  text-align: center;
+  margin: 0 10%;
+}
+.social-net img{
+  width: 75px;
+    transition: 0.3s ease;
+}
+.social-net img:hover {
+  transform: scale(1.1, 1.1);
+}
+.social-net p{
+  margin-top: 10%;
+  color:#fff;
+}
+
+
 
 /*----------------------NEWS------------------------*/
 #news {
