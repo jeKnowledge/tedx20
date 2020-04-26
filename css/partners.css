@@ -1,9 +1,13 @@
 /*-----------------------HOME------------------------*/
 #part_home {
   height: 400px;
-  background-color: #000000;
-  background-image: url('../img/part.jpg');
-  background-position: center;
+  background:
+  linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+  url('../img/partback.jpg');
+  background-position: right;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -97,94 +101,34 @@ display: none;
 }
 #cuf {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-height: 2.5em;
   margin-top: 10px;
 }
 #jek {
-  max-height: 2.5em;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  margin-top: 15px;
-}
-#sleek {
-  max-height: 5em;
-  margin-right: 20vw;
-}
-#sdog {
-  max-height: 4em;
-  margin-right: 20vw;
-}
-#singular {
-  max-height: 2.5em;
-  margin-right: 20vw;
-  margin-left: 10vw;
-  margin-top: 15px;
-}
-#shoyce {
-  max-height: 2.5em;
-  margin-right: 20vw;
-  margin-top: 15px;
-}
-#fruut{
-  max-height: 4em;
-  margin-right: 20vw;
-  margin-top: 10px;
-  margin-left: -20px;
-}
-#illy{
-  max-height: 2.5em;
-  margin-right: 20vw;
-  margin-top: 15px;
-  margin-left: -20px;
-}
-#green{
-  max-height: 3em;
-  margin-right: 20vw;
-  margin-top: 10px;
-}
-#izidoro{
-  max-height: 4.5em;
-  margin-top: 3px;
-  margin-left: -20px;
-}
-#diatosta{
-  max-height: 3em;
-  margin-top: 10px;
-  margin-left: 40px;
-}
-#delta{
-  max-height: 3em;
-  margin-right: 20vw;
-  margin-top: 10px;
-  margin-left: 60px;
-}
-#glood{
-  max-height: 3em;
-  margin-right: 20vw;
-  margin-top: 10px;
-}
-#zonapro{
-  max-height: 2.5em;
-  margin-right: 20vw;
-  margin-top: 15px;
-}
-#turismo{
-  max-height: 2.5em;
-  margin-right: 20vw;
-  margin-top: 15px;
-}
-#uc {
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-height: 6em;
+  margin-top: 10px;
+  width: 25vw;
 }
-@media (min-width: 768px){
+.inst{
+  display: flex;
+  justify-content: center;
+}
+.inst img{
+  width: 15vw;
+  margin: 0 3vw;
+}
+#cmc{
+  margin-top: 10vh;
+}
 
+@media (min-width: 768px){
 
   .c-my-flooper{
     padding-bottom: 80px;
@@ -229,85 +173,5 @@ display: none;
     padding-top: 40px;
     max-height: 100px;
     padding-bottom: 60px;
-  }
-  #jek {
-    max-height: 7em;
-    margin-left: 8vw;
-    margin-top: 30px;
-  }
-  #sleek {
-    max-height: 11em;
-    margin-right: 20vw;
-    margin-left: 4vw;
-    margin-top: 5px;
-  }
-  #sdog {
-    max-height: 8em;
-    margin-left: 4vw;
-    margin-top: 25px;
-  }
-  #singular {
-    max-height: 100px;
-    margin-top: 20px;
-  }
-  #shoyce {
-    max-height: 100px;
-    margin-right: 20vw;
-    margin-top: 15px;
-    margin-left: -100px;
-  }
-  #fruut{
-    max-height: 140px;
-    margin-top: 10px;
-    margin-left: -100px;
-  }
-  #illy{
-    max-height: 100px;
-    margin-right: 20vw;
-    margin-top: 18px;
-    margin-left: -100px;
-  }
-  #green{
-    margin-top: -10px;
-    max-height: 140px;
-    margin-right: 20vw;
-    margin-left: -140px;
-  }
-  #izidoro{
-    margin-top: -15px;
-    max-height: 200px;
-    margin-left: -200px;
-  }
-  #diatosta{
-    max-height: 200px;
-    margin-top: 40px;
-    margin-left:80px;
-  }
-  #delta{
-    max-height: 100px;
-    margin-right: 20vw;
-    margin-top:30px;
-    margin-left: 150px;
-  }
-  #glood{
-    max-height: 100px;
-    margin-right: 20vw;
-    margin-top:30px;
-    margin-left: -80px;
-  }
-  #zonapro{
-    max-height: 90px;
-    margin-right: 20vw;
-    margin-top: 35px;
-    margin-left: -80px;
-  }
-  #turismo{
-    max-height: 90px;
-    margin-right: 20vw;
-    margin-top: 35px;
-    margin-left: -80px;
-  }
-  #uc {
-    max-height: 200px;
   }
 }

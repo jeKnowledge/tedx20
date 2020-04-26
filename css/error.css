@@ -1,0 +1,26 @@
+#error{
+  background-image: url('../img/background2.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.error-info{
+  text-align: center;
+  padding-top: 40vh;
+}
+.error-info h1{
+  font-size: 3em;
+  color: #fff;
+  padding-bottom: 2%;
+}
+.error-info a{
+  text-decoration: none;
+  background: #E62B1E;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0.5% 2%;
+  border-radius: 5px;
+}
+.error-info a:hover {
+  opacity: 0.8;
+}

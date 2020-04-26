@@ -80,17 +80,19 @@
 }
 .social-net{
   text-align: center;
-  margin: 0 10%;
+  margin: 0 8% 2% 8%;
 }
 .social-net img{
-  width: 75px;
-    transition: 0.3s ease;
+  width: 3vw;
+  transition: 0.3s ease;
 }
 .social-net img:hover {
   transform: scale(1.1, 1.1);
 }
 .social-net p{
+  font-size: 12px;
   margin-top: 10%;
+  font-weight: lighter;
   color:#fff;
 }
 
