@@ -2,25 +2,25 @@
 #part_home {
   height: 400px;
   background:
-  linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
-        ),
-  url('../img/partback.jpg');
+    linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url('../img/partback.jpg');
   background-position: right;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #part_home h2 {
   padding-top: 150px;
   text-align: center;
   font-size: 3em;
   color: #ffffff;
 }
-#part_home h2::after{
-  content:'';
+
+#part_home h2::after {
+  content: '';
   display: flex;
   height: 3px;
   text-align: center;
@@ -28,24 +28,29 @@
   background-color: #E62B1E;
   margin-top: 5px;
 }
+
 #part_home p {
   padding-top: 250px;
   color: #ffffff;
   font-size: 2em;
 }
+
 @media screen and (max-width: 840px) {
   #part_home h2 {
-      padding-top: 90px;
+    padding-top: 90px;
     font-size: 1.5em;
   }
+
   #part_home {
     height: 200px;
   }
 }
+
 /*-----------------------PARTNERS------------------------*/
 #partners {
   height: 440px;
 }
+
 h3 {
   background: #fff;
   box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;
@@ -55,50 +60,55 @@ h3 {
   text-align: center;
   font-size: 0.5em;
 }
+
 .scroll_h {
- overflow: auto;
- overflow-x: hidden;
- width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 ::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
-.c-my-flooper{
+.c-my-flooper {
   position: relative;
   display: flex;
   flex-wrap: nowrap;
   white-space: nowrap;
   width: 100%;
-  }
-.flex-item-start{
+}
+
+.flex-item-start {
   flex-direction: row;
   flex-wrap: wrap;
   display: flex;
   justify-content: flex-start;
 }
+
 .js-flooper2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-#nem{
+
+#nem {
   max-height: 2em;
   margin-right: 20vw;
   margin-left: 20vw;
   margin-top: 5px;
 }
 
-#asuc{
+#asuc {
   max-height: 50px;
   margin-right: 25vw;
 }
 
-#santander{
+#santander {
   max-height: 50px;
   margin-right: 20vw;
-  margin-top:2px;
+  margin-top: 2px;
 }
+
 #cuf {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -106,7 +116,9 @@ display: none;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  width: 25vw;
 }
+
 #jek {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -116,34 +128,50 @@ display: none;
   margin-top: 10px;
   width: 25vw;
 }
-.inst{
+
+#un-freg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 25vw;
+}
+
+.inst {
   display: flex;
   justify-content: center;
 }
-.inst img{
+
+.inst img {
   width: 15vw;
   margin: 0 3vw;
 }
-#cmc{
-  margin-top: 10vh;
+
+#cmc {
+  margin-top: 25%;
 }
 
-@media (min-width: 768px){
-
-  .c-my-flooper{
+@media (min-width: 768px) {
+  .c-my-flooper {
     padding-bottom: 80px;
     width: 100%;
   }
+
   .js-flooper2 {
     padding-bottom: 20px;
   }
+
   .js-flooper3 {
     padding-bottom: 20px;
   }
+
   .js-flooper4 {
     padding-top: 20px;
     padding-bottom: 10px;
   }
+
   #partners {
     height: 840px;
   }
@@ -152,26 +180,26 @@ display: none;
     font-size: 1.2em;
   }
 
-  #nem{
+  #nem {
     max-height: 100px;
     margin-right: 10vw;
     margin-left: 10vw;
     margin-top: 40px;
   }
 
-  #asuc{
+  #asuc {
     max-height: 210px;
     margin-right: 10vw;
     margin-left: 10vw;
   }
 
-  #santander{
+  #santander {
     max-height: 180px;
     margin-left: 10vw;
   }
+
   #cuf {
     padding-top: 40px;
-    max-height: 100px;
     padding-bottom: 60px;
   }
 }

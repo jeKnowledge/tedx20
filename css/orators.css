@@ -1,23 +1,25 @@
-/*--------------------------HOME---------------------*/
+/*-----------------------HOME------------------------*/
 #home_orators {
-  height: 400px;
-  background-image: url('../img/background3.jpg');
-  background-position: center;
+  height: 600px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url('../img/background3.jpg');
+  background-position: right;
   background-size: cover;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-#home_orators h3 {
-  color: #ffffff;
+#home_orators h2 {
+  padding-top: 350px;
   text-align: center;
-  padding-top: 140px;
   font-size: 3em;
+  color: #ffffff;
 }
 
-#home_orators h3::after {
+#home_orators h2::after {
   content: '';
   display: flex;
   height: 3px;
@@ -27,26 +29,38 @@
   margin-top: 5px;
 }
 
+#home_orators p {
+  padding-top: 250px;
+  color: #ffffff;
+  font-size: 2em;
+}
+
 @media screen and (max-width: 840px) {
-  #home_orators h3 {
-    font-size: 2em;
+  #home_orators h2 {
+    padding-top: 90px;
+    font-size: 1.5em;
+  }
+
+  #home_orators {
+    height: 200px;
   }
 }
 
 /*--------------------------ORATORS---------------------*/
 #orators-list {
   height: auto;
-  padding-bottom: 10%;
+  padding-bottom: 6%;
 }
 
 .orators-container {
   display: flex;
-  margin-top: 8%;
+  margin-top: 4%;
+  justify-content: center;
 }
 
 .orator {
+  margin: 0 5%;
   width: auto;
-  width: 55%;
   position: relative;
   text-align: center;
 }
@@ -58,18 +72,15 @@
   box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;
 }
 
-.orator-icon p{
+.orator-icon p {
   background-color: #E62B1E;
   padding: 2%;
   position: absolute;
-  top: 86%;
+  top: 88%;
   left: 50%;
-  border-radius: 5px;
   transform: translate(-50%, -50%);
+  border-radius: 5px;
   color: #fff;
-}
-.orName{
-  display: none;
 }
 
 .orator img:hover {
@@ -78,39 +89,102 @@
   opacity: 0.9;
 }
 
-.orator img:hover ~ .orName, .orator p:hover {
-  display: block;
+.orator img:hover~.orName, .orator p:hover {
+  display: none;
 }
 
-#orator-info{
+#orator-info {
   display: none;
 }
 
 .info-bckg {
   background: #000;
-  position: absolute;
+  position: fixed;
   width: 100vw;
-  height: 215vh;
-  margin-top: -80vh;
-  z-index: 2;
+  height: 100vh;
   opacity: 0.7;
+  z-index: 2;
+  top: 0;
 }
 
 .info-container {
-  background: #fff;
   position: fixed;
+  background: #fff;
   width: 60vw;
   height: auto;
   margin-left: 20vw;
-  margin-top: -40vh;
-  z-index: 3;
   border-radius: 5px;
+  z-index: 10;
   text-align: center;
+  top: 25vh;
 }
 
 .info-container h2 {
   padding: 5% 5% 0 5%;
 }
+
 .info-container p {
+  font-weight: lighter;
   padding: 5% 10%;
+}
+
+.info-container .out {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.info-container .out:hover {
+  opacity: 0.5;
+}
+
+.info-container .out:before, .info-container .out:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #E62B1E;
+}
+
+.info-container .out:before {
+  transform: rotate(45deg);
+}
+
+.info-container .out:after {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 840px) {
+  .orator-icon p {
+    font-size: 12px;
+  }
+
+  .orator {
+    margin: 0 3%;
+  }
+
+  .orator img {
+    width: 25vw;
+  }
+
+  .info-container h2 {
+    font-size: 1em;
+  }
+
+  .info-container p {
+    font-size: 12px;
+  }
+
+  .info-container .out:before, .info-container .out:after {
+    height: 13px;
+  }
+
+  .info-container .out {
+    right: 18px;
+    top: 18px;
+  }
 }

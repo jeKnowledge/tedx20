@@ -1,8 +1,10 @@
 var info = document.getElementById("orator-info");
 var orator = document.getElementById("orator-icon");
+
 function orInfo() {
   info.style.display = "block";
 }
+
 function orOut() {
   info.style.display = "none";
 }
@@ -20,7 +22,7 @@ var zeMagico = document.getElementById("ze-magico");
 if (claraNao.addEventListener) {
   claraNao.addEventListener("click", function() {
     n.innerText = "Clara Não";
-    d.innerText= "Clara Não nasceu e vive no Porto. Licenciou-se em Design de Comunicação pela Faculdade de Belas Artes no Porto e foi devido à sua experiência de erasmus em Roterdão que direcionou o seu caminho pela ilustração e pela escrita. Há 2 anos voltou à Faculdade de Belas Artes onde tirou o seu mestrado em desenho e técnicas de impressão. Clara Não destaca-se pela sua ironia e irreverência, nas ilustrações onde reivindica a igualdade, trata de tabus sociais e desenvolve a escrita ambidestra. Está representada em diversas galerias, como a Senhora Presidenta, Circus Network, Ó! Galeria, Malapata, Apaixonarte e Área 55. É mencionada de forma regular em diversas publicações, como a Vogue, Público e Jornal de Notícias, e tem uma forte presença diariamente no Instagram.";
+    d.innerText = "Clara Não nasceu e vive no Porto. Licenciou-se em Design de Comunicação pela Faculdade de Belas Artes no Porto e foi devido à sua experiência de erasmus em Roterdão que direcionou o seu caminho pela ilustração e pela escrita. Há 2 anos voltou à Faculdade de Belas Artes onde tirou o seu mestrado em desenho e técnicas de impressão. Clara Não destaca-se pela sua ironia e irreverência, nas ilustrações onde reivindica a igualdade, trata de tabus sociais e desenvolve a escrita ambidestra. Está representada em diversas galerias, como a Senhora Presidenta, Circus Network, Ó! Galeria, Malapata, Apaixonarte e Área 55. É mencionada de forma regular em diversas publicações, como a Vogue, Público e Jornal de Notícias, e tem uma forte presença diariamente no Instagram.";
   });
 }
 /*Arlindo Oliveira*/
@@ -48,6 +50,6 @@ if (carolinaPereira.addEventListener) {
 if (zeMagico.addEventListener) {
   zeMagico.addEventListener("click", function() {
     n.innerText = "Zé Mágico";
-    d.innerText="desc";
+    d.innerText = "Nascido a 1994 e conhecido como o “Zé Mágico”, este conheceu a sua paixão pelo ilusionismo com apenas 15 anos. Através de livros, vídeos, espetáculos e todos os formatos a que tinha acesso, conseguiu tornar-se num dos maiores ilusionistas do nosso país. Aparte da sua formação em Design de Mobiliário, também se apaixonou pelo Teatro Experimental, o que considerou fundamental na construção da sua personalidade e de todas as personagens que daí surgiram. Com os seus diverso espetáculos e eventos personalizados, garante criar um ambiente mágico nas suas atuações com o seu carismo e atitude única.";
   });
 }

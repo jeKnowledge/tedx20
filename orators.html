@@ -29,28 +29,36 @@
           <li><a href="anemia.html">ANEMIA</a></li>
           <li><a href="#">EDIÇÃO ANTERIOR</a></li>
         </ul>
-        <div class="nav_2">
-          <label for="toggle">&#9776;</label>
-          <input type="checkbox" id="toggle" />
-          <div class="menu">
-            <a href="tedtedx.html">TED & TEDx</a>
-            <a href="orators.html">ORADORES</a>
-            <a href="program.html">PROGRAMA</a>
-            <a href="partners.html">PARCEIROS</a>
-            <a href="team.html">EQUIPA</a>
-            <!-- <a href="tickets.html">BILHETES</a> -->
-            <a href="anemia.html">ANEMIA</a>
-            <a href="#">EDIÇÃO ANTERIOR</a>
-          </div>
-        </div>
-      </div>
     </nav>
+
+    <section id="hamburguer">
+      <input id="menu-hamburguer" type="checkbox" class="check">
+      <label for="menu-hamburguer">
+        <div class="menu-select">
+          <span class="hamburguer"></span>
+        </div>
+      </label>
+      <div class="menu" id="hiddenMenu" style="display:none">
+        <ul>
+          <li><a href="tedtedx.html">TED & TEDx</a></li>
+          <li><a href="orators.html">ORADORES</a></li>
+          <li><a href="program.html">PROGRAMA</a></li>
+          <li><a href="partners.html">PARCEIROS</a></li>
+          <li><a href="team.html">EQUIPA</a></li>
+          <!-- <li><a href="tickets.html">BILHETES</a></li> -->
+          <li><a href="anemia.html">ANEMIA</a></li>
+          <li><a href="#">EDIÇÃO ANTERIOR</a></li>
+        </ul>
+      </div>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script src="js/hamburguer.js"></script>
+    </section>
   </header>
 
   <main>
 
     <section id="home_orators">
-      <h3>Oradores</h3>
+      <h2>Oradores</h2>
     </section>
 
     <section id="orators-list">
@@ -60,6 +68,7 @@
         <div class="info-container" id="pagamento-info">
           <h2 id="name"></h2>
           <p id="description"></p>
+          <a class="out" onclick="orOut()">
         </div>
       </div>
 

@@ -29,22 +29,30 @@
           <li><a href="anemia.html">ANEMIA</a></li>
           <li><a href="#">EDIÇÃO ANTERIOR</a></li>
         </ul>
-        <div class="nav_2">
-          <label for="toggle">&#9776;</label>
-          <input type="checkbox" id="toggle" />
-          <div class="menu">
-            <a href="tedtedx.html">TED & TEDx</a>
-            <a href="orators.html">ORADORES</a>
-            <a href="program.html">PROGRAMA</a>
-            <a href="partners.html">PARCEIROS</a>
-            <a href="team.html">EQUIPA</a>
-            <!-- <a href="tickets.html">BILHETES</a> -->
-            <a href="anemia.html">ANEMIA</a>
-            <a href="#">EDIÇÃO ANTERIOR</a>
-          </div>
-        </div>
-      </div>
     </nav>
+
+    <section id="hamburguer">
+      <input id="menu-hamburguer" type="checkbox" class="check">
+      <label for="menu-hamburguer">
+        <div class="menu-select">
+          <span class="hamburguer"></span>
+        </div>
+      </label>
+      <div class="menu" id="hiddenMenu" style="display:none">
+        <ul>
+          <li><a href="tedtedx.html">TED & TEDx</a></li>
+          <li><a href="orators.html">ORADORES</a></li>
+          <li><a href="program.html">PROGRAMA</a></li>
+          <li><a href="partners.html">PARCEIROS</a></li>
+          <li><a href="team.html">EQUIPA</a></li>
+          <!-- <li><a href="tickets.html">BILHETES</a></li> -->
+          <li><a href="anemia.html">ANEMIA</a></li>
+          <li><a href="#">EDIÇÃO ANTERIOR</a></li>
+        </ul>
+      </div>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script src="js/hamburguer.js"></script>
+    </section>
   </header>
 
   <main>
@@ -68,19 +76,20 @@
         </div>
       </div>
 
+      <h3>PARCEIROS INSTITUCIONAIS</h3>
+      <div class="inst">
+        <a href="https://www.uc.pt/" target="_blank"><img src="img/partners/uc.png" alt="logo" id="uc"></a>
+        <a href="https://www.cm-coimbra.pt/" target="_blank"><img src="img/partners/cmc.svg" alt="logo" id="cmc"></a>
+      </div>
+
       <h3 class="silver">SILVER</h3>
       <a href="https://www.saudecuf.pt/" target="_blank"><img src="img/partners/cuf.jpg" alt="logo" id="cuf"></a>
 
+      <h3 class="silver">BRONZE</h3>
+      <a href="https://www.saudecuf.pt/" target="_blank"><img src="img/partners/unfreg.png" alt="logo" id="un-freg"></a>
 
       <h3 class="tec">TECNOLÓGICOS</h3>
       <a href="https://www.facebook.com/jeknowledge/" target="_blank"><img src="img/partners/jek.png" alt="logo" id="jek"></a>
-
-
-      <h3>PARCEIROS INSTITUCIONAIS</h3>
-      <div class="inst">
-      <a href="https://www.uc.pt/" target="_blank"><img src="img/partners/uc.png" alt="logo" id="uc"></a>
-      <a href="https://www.cm-coimbra.pt/" target="_blank"><img src="img/partners/cmc.svg" alt="logo" id="cmc"></a>
-      </div>
 
     </section>
 

@@ -1,32 +1,32 @@
-
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   font-family: Helvetica;
 }
+
 /*-----------------------HOME------------------------*/
 #team_home {
   height: 400px;
   background:
-  linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
-        ), url('../img/team/back.jpg');
-  background-position: center;
+    linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url('../img/team/back.jpg');
+  background-position: right;
   background-size: cover;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-#team_home h3 {
+
+#team_home h2 {
   padding-top: 150px;
   text-align: center;
   font-size: 3em;
   color: #ffffff;
 }
-#team_home h3::after{
-  content:'';
+
+#team_home h2::after {
+  content: '';
   display: flex;
   height: 3px;
   text-align: center;
@@ -34,94 +34,139 @@
   background-color: #E62B1E;
   margin-top: 5px;
 }
+
 #team_home p {
   padding-top: 250px;
   color: #ffffff;
   font-size: 2em;
 }
 
+@media screen and (max-width: 840px) {
+  #team_home h2 {
+    padding-top: 90px;
+    font-size: 1.5em;
+  }
+
+  #team_home {
+    height: 400px;
+  }
+}
 
 /*-----------------------INFO------------------------*/
 #info {
   height: auto;
   background: #ffffff;
 }
+
 .info {
   padding: 8% 8%;
 }
+
 #info p {
   color: #000000;
   font-weight: lighter;
   font-size: 1em;
 }
+
 @media screen and (max-width: 1200px) {
   #info {
-    height: 400px;
+    padding-bottom: 4vh;
     font-size: 14px;
   }
 }
+
 @media screen and (max-width: 880px) {
   .info {
     padding: 100px 20px 0 20px;
   }
 }
+
 @media screen and (max-width: 600px) {
-  #info {
-    height: 450px;
-  }
   .info {
     padding-top: 20px;
   }
 }
 
-
-
 /*-----------------------MEMBROS------------------------*/
-
 #members {
   height: auto;
   padding-bottom: 10%;
 }
-#members h1{
+
+#members h1 {
   margin-top: 8vh;
   text-align: center;
   font-size: 2.2em;
   color: #E62B1E;
   padding-bottom: 2vh;
 }
-#members h1:first-child{
+
+#members h1:first-child {
   margin-top: 3vh;
 }
-.m-container{
+
+.m-container {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 5vh;
 }
-.m-container h2{
+
+.m-container h2 {
   font-size: 1em;
 }
-.m-container img{
+
+.m-container img {
   margin: 0 2vw;
   transition: 0.3s ease;
   border-radius: 5px;
   box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;
 }
+
 .m-container img:hover {
   transform: scale(1.02, 1.02);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.m-container p{
+
+.m-container p {
   color: #E62B1E;
 }
-.m-container p:last-child{
+
+.m-container p:last-child {
   color: #000;
 }
-.m-container .member:first-child{
-}
-.org1 img{
+
+.org1 img {
   width: 14vw;
 }
-.org2 img, .log img, .or img, .img-cm img, .fund img{
+
+.org2 img, .log img, .or img, .img-cm img, .fund img {
   width: 11vw;
+}
+
+@media screen and (max-width: 840px) {
+  #members h1 {
+    font-size: 1.5em;
+  }
+
+  .m-container {
+    display: block;
+    margin-top: 2vh;
+  }
+
+  .org1 {
+    display: flex;
+  }
+
+  .org1 img {
+    width: 40vw;
+  }
+
+  .org2 img, .log img, .or img, .img-cm img, .fund img {
+    width: 40vw;
+  }
+
+  .member {
+    margin-top: 3vh;
+  }
 }
