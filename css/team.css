@@ -67,7 +67,11 @@
   font-weight: lighter;
   font-size: 1em;
 }
-
+#info img{
+  width: 100vw;
+  position: absolute;
+  margin-top:0;
+}
 @media screen and (max-width: 1200px) {
   #info {
     padding-bottom: 4vh;
@@ -84,6 +88,9 @@
 @media screen and (max-width: 600px) {
   .info {
     padding-top: 20px;
+  }
+  #info img{
+    display: none;
   }
 }
 

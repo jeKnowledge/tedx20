@@ -83,9 +83,7 @@ nav .line {
   width: 100% color: #ffffff;
   text-align: right;
   font-size: 1em;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  padding-right: 20px;
+  padding: 5%;
   transition: 0.3s;
 }
 
@@ -217,7 +215,7 @@ input:checked~label .hamburguer:after {
 
 .menu li {
   display: block;
-  margin-top: 8%;
+  margin-top: 10%;
 }
 
 .menu a {

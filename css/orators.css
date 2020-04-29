@@ -159,22 +159,30 @@
 }
 
 @media screen and (max-width: 840px) {
+  .orators-container {
+    display: block;
+    margin-top: 0;
+  }
+
   .orator-icon p {
     font-size: 12px;
   }
 
   .orator {
-    margin: 0 3%;
+    margin: 10% 0;
   }
 
   .orator img {
-    width: 25vw;
+    width: 50vw;
   }
-
+  .info-container {
+    width: 70vw;
+    margin-left: 15vw;
+    top:12vh;
+  }
   .info-container h2 {
     font-size: 1em;
   }
-
   .info-container p {
     font-size: 12px;
   }
@@ -184,7 +192,7 @@
   }
 
   .info-container .out {
-    right: 18px;
-    top: 18px;
+    right: 2%;
+    top: 5%;
   }
 }
