@@ -54,8 +54,11 @@
 
 .orators-container {
   display: flex;
-  margin-top: 4%;
+  margin-top: 6%;
   justify-content: center;
+}
+#c-top{
+  margin-top: 10%;
 }
 
 .orator {
@@ -158,10 +161,25 @@
   transform: rotate(-45deg);
 }
 
+#direto-anim {
+  width: 15%;
+  top: 560px;
+  z-index: -1;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
 @media screen and (max-width: 840px) {
   .orators-container {
     display: block;
     margin-top: 0;
+  }
+  #c-top{
+    margin-top: 28%;
   }
 
   .orator-icon p {
@@ -175,14 +193,17 @@
   .orator img {
     width: 50vw;
   }
+
   .info-container {
     width: 70vw;
     margin-left: 15vw;
-    top:12vh;
+    top: 12vh;
   }
+
   .info-container h2 {
     font-size: 1em;
   }
+
   .info-container p {
     font-size: 12px;
   }
@@ -194,5 +215,10 @@
   .info-container .out {
     right: 2%;
     top: 5%;
+  }
+
+  #direto-anim {
+    width: 25%;
+    top: 210px;
   }
 }

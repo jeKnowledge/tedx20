@@ -67,10 +67,12 @@
   font-weight: lighter;
   font-size: 1em;
 }
-#info img{
+#linhas{
   width: 100vw;
   position: absolute;
   margin-top:0;
+}
+#linhas:last-child{
 }
 @media screen and (max-width: 1200px) {
   #info {
