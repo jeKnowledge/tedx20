@@ -123,9 +123,8 @@
 
 /*-----------------------COMPARE------------------------*/
 #compare {
-  height: 900px;
+  height: auto;
 }
-
 .compare-container {
   width: 80vw;
   height: auto;
@@ -135,12 +134,28 @@
   box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;
   padding-bottom: 2%;
 }
-
 .compare-container a {
   color: #E62B1E;
   text-decoration: none;
 }
 
 .compare-container p {
-  margin: 2%;
+  padding: 2%;
+}
+#logo-ted{
+  width: 20%;
+}
+#logo-tedx{
+  width: 40%;
+}
+@media screen and (max-width: 800px) {
+  .compare-container p {
+    font-size: 12px;
+  }
+  #logo-ted{
+    width: 30%;
+  }
+  #logo-tedx{
+    width: 50%;
+  }
 }

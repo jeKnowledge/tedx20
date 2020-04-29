@@ -9,20 +9,30 @@
 #home img {
   width: 32%;
   position: absolute;
-  bottom: 0%;
+  bottom: 5%;
   left: 2%;
   opacity: 0.8;
+  margin: 5% 0;
+}
+#home img:last-child {
+  width: 10%;
+  bottom: 1%;
+  left: 23.5%;
 }
 
 @media screen and (max-width: 600px) {
   #home {
     height: 600px;
   }
-
   #home img {
     width: 40%;
     left: 5%;
     bottom: 30%;
+  }
+  #home img:last-child {
+    width: 15%;
+    bottom: 27%;
+    left: 29.5%;
   }
 }
 
