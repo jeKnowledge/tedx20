@@ -65,7 +65,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  #about .text {}
 
   #about .sec {
     display: inherit;
@@ -76,13 +75,6 @@
   }
 }
 
-@media screen and (max-width: 580px) {
-  #about .text {}
-}
-
-@media screen and (max-width: 320px) {
-  #about .text {}
-}
 
 /*----------------------SOCIAL------------------------*/
 #social {
@@ -115,6 +107,19 @@
   margin-top: 10%;
   font-weight: lighter;
   color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .social-net img {
+    width: 7vw;
+  }
+  .social-net p {
+    font-size: 10px;
+  }
+  .social-net {
+    text-align: center;
+    margin: 0 2% 2% 2%;
+  }
 }
 
 /*----------------------NEWS------------------------*/
