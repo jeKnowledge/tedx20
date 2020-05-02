@@ -119,16 +119,6 @@ h3 {
   width: 25vw;
 }
 
-#jek {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  width: 25vw;
-}
-
 #un-freg {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -151,6 +141,32 @@ h3 {
 
 #cmc {
   margin-top: 25%;
+}
+.tec{
+  display: flex;
+  justify-content: center;
+}
+.tec a{
+  margin: 0 2%;
+}
+#jek {
+  width: 25vw;
+  padding: 5% 0;
+}
+.log{
+  display: flex;
+  justify-content: center;
+}
+.log a{
+  margin: 2% 2%;
+}
+#toast{
+  padding: 5% 0;
+  width: 8vw;
+}
+#ma {
+  width: 15vw;
+  padding: 5% 0;
 }
 
 @media (min-width: 768px) {
