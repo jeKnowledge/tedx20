@@ -42,17 +42,9 @@ $(document).ready(function() {
     $('#clara-nao-img').attr('src', 'img/orators/Clara Nao 1.jpg');
     $('#clara-nao-img').attr('onmouseover', false);
     $('#clara-nao-img').attr('onmouseout', false);
-  }
-});
-$(document).ready(function() {
-  if ($(window).width() <= 800) {
     $('#ana-costa-img').attr('src', 'img/orators/Ana Costa 1.jpg');
     $('#ana-costa-img').attr('onmouseover', false);
     $('#ana-costa-img').attr('onmouseout', false);
-  }
-});
-$(document).ready(function() {
-  if ($(window).width() <= 800) {
     $('#carolina-pereira-img').attr('src', 'img/orators/Carolina Salgueiro Pereira.jpg');
     $('#carolina-pereira-img').attr('onmouseover', false);
     $('#carolina-pereira-img').attr('onmouseout', false);
