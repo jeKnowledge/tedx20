@@ -13,7 +13,6 @@ var n = document.getElementById("name");
 var d = document.getElementById("description");
 
 var claraNao = document.getElementById("clara-nao");
-var anaCosta = document.getElementById("ana-costa");
 var carolinaPereira = document.getElementById("carolina-pereira");
 var eduardoJorge = document.getElementById("eduardo-jorge");
 var fatimaCastro = document.getElementById("fatima-castro");
@@ -24,13 +23,6 @@ if (claraNao.addEventListener) {
   claraNao.addEventListener("click", function() {
     n.innerText = "Clara Não";
     d.innerText = "Para nos presentear com a Metamorfose de Mentalidades, contaremos com a presença de Clara Não, nome artístico de Clara Silva. Nasceu em Cedofeita, Porto e foi criada em Grijó, Aveiro. Licenciou-se em Design de Comunicação, na Faculdade de Belas Artes da Universidade do Porto e, tornou-se mestre em Desenho e Técnicas da Impressão na mesma instituição, após ter feito Erasmus em Roterdão. A autora do livro Miga, esquece lá isso!, lançado em Junho 2019, defende que o nosso superpoder é dizer “Não” e o seu trabalho capta a atenção por falar sem tabu de aflições do quotidiano de cada um. Começou por publicar apenas conteúdo na rede social Instagram, mas atualmente o seu trabalho é exposto frequentemente em jornais de referência e em várias galerias. Fazer tapeçaria manual, ser ambidestra e DJ fazem são apenas algumas das suas inúmeras aptidões.";
-  });
-}
-/*Ana Filpa Costa*/
-if (anaCosta.addEventListener) {
-  anaCosta.addEventListener("click", function() {
-    n.innerText = "Ana Filpa Costa";
-    d.innerText = "Ana Filipa Costa é uma das impulsionadoras da sustentabilidade na indústria da moda. Formada em Engenharia do Ambiente pela Faculdade Nova de Lisboa, e em Gestão pelo ISCTE - Instituto Universitário de Lisboa. Em 2017, aliou então a sua experiência profissional à sua paixão e fundou a Baseville. Esta sua marca tem como princípio a criação de peças que sejam ambiental e socialmente responsáveis. Recentemente, aliou-se à plataforma Catalyst | Inspiring Future Fashion que visa maximizar o reconhecimento da sustentabilidade nesta indústria.";
   });
 }
 /*Carolina Salgueiro Pereira*/
@@ -69,9 +61,6 @@ $(document).ready(function() {
     $('#clara-nao-img').attr('src', 'img/orators/Clara Nao 1.jpg');
     $('#clara-nao-img').attr('onmouseover', false);
     $('#clara-nao-img').attr('onmouseout', false);
-    $('#ana-costa-img').attr('src', 'img/orators/Ana Costa 1.jpg');
-    $('#ana-costa-img').attr('onmouseover', false);
-    $('#ana-costa-img').attr('onmouseout', false);
     $('#carolina-pereira-img').attr('src', 'img/orators/Carolina Salgueiro Pereira.jpg');
     $('#carolina-pereira-img').attr('onmouseover', false);
     $('#carolina-pereira-img').attr('onmouseout', false);
@@ -81,7 +70,6 @@ $(document).ready(function() {
     $('#fatima-castro-img').attr('src', 'img/orators/Fatima1.jpg');
     $('#fatima-castro-img').attr('onmouseover', false);
     $('#fatima-castro-img').attr('onmouseout', false);
-
     $('#goulds-img').attr('src', 'img/orators/Goulds1.jpg');
     $('#goulds-img').attr('onmouseover', false);
     $('#goulds-img').attr('onmouseout', false);
