@@ -17,6 +17,11 @@ var carolinaPereira = document.getElementById("carolina-pereira");
 var eduardoJorge = document.getElementById("eduardo-jorge");
 var fatimaCastro = document.getElementById("fatima-castro");
 var goulds = document.getElementById("goulds");
+var filipa = document.getElementById("filipa");
+var arlindo = document.getElementById("arlindo");
+var magico = document.getElementById("magico");
+
+
 
 /*Clara Não*/
 if (claraNao.addEventListener) {
@@ -53,6 +58,28 @@ if (goulds.addEventListener) {
     d.innerText = "Em 2016, nasce Goulds, uma personagem que representa a força, carisma e sensualidade da mulher. Para Daniel Araújo, designer de 21 anos, viver na pele de uma “drag queen” começou como apenas uma curiosidade. Porém, rapidamente se apercebeu do poder e ausência de limitações que esta personificação acarreta. Ser Glouds permite-lhe explorar o mundo da fantasia e tecer críticas aos mais variados temas geradores de controvérsia na nossa sociedade. Num registo inesperado de individualidade e liberdade de expressão, Goulds é o convidado certo para nos falar da importância da “Metamorfose Pessoal” rumo à aceitação daquilo que somos, sentimos e pensamos.";
   });
 }
+/*Filipa Bessa*/
+if (filipa.addEventListener) {
+  filipa.addEventListener("click", function() {
+    n.innerText = "Filipa Bessa";
+    d.innerText = "Como alguém que abraça diariamente a Metamorfose Ambiental, Filipa Bessa é a oradora ideal para mostrar o papel fulcral que temos na preservação da vida para além de nós, em especial nos ecossistemas marinhos e costeiros. Bióloga e investigadora mas também empenhada na comunicação em ciência, Filipa tem a sua pegada em vários projetos nacionais e internacionais no âmbito da Biodiversidade, Risco Ambiental, Governança e Literacia. É autora de vários artigos científicos, relatórios e comunicações em eventos no âmbito da Biociência. Atualmente, desenvolve a sua atividade profissional no MARE - Centro de Ciências do Mar e Ambiente na Universidade de Coimbra, mais focada principalmente no impacto que a poluição por plástico (e outras atividades do Homem) têm na dinâmica de ecossistemas marinhos e costeiros. Mais ainda, Filipa coordena vários projetos que sublinham o peso das ações humanas nos mais diversos níveis ambientais, acentuando a necessidade de mudança e proteção da casa que tomamos por garantida, bem como do ponto de vista que a população tem face ao ambiente, em especial ao mar. São exemplos destes projetos o Lixo Marinho, uma aplicação que apela à recolha de lixo marinho das praias mais próximas de nós, ou a sua participação no  grupo internacional Micro and Nano Plastics, apoiado pela Comissão Europeia de Mecanismo de Aconselhamento Científico. Se pretendes ser mais do que uma gota de água no oceano… Por que não começar agora?";
+  });
+}
+/*Arlindo Oliveira*/
+if (arlindo.addEventListener) {
+  arlindo.addEventListener("click", function() {
+    n.innerText = "Arlindo Oliveira";
+    d.innerText = "Arlindo Oliveira, reconhecido professor, investigador e escritor, iniciou o seu percurso licenciando-se no Instituto Superior Técnico (IST) da Universidade de Lisboa em Engenharia Eletrotécnica e dos Computadores, cedo descobrindo a necessidade de voos maiores no complemento da formação. Rumou a Berkeley, onde se Doutorou dentro das áreas das ciências computação, na Universidade da Califória. Iniciou o período laboral no CERN, em 1986, tendo sido também investigador convidado na Cadence Laboratories e exercendo cargos de chefia no INESC-ID (Instituto de Engenharia de Sistemas e Computadores, Investigação e Desenvolvimento em Lisboa), bem como na Presidência do IST. É membro sénior da IEEE, uma organização profissional sem fins lucrativos, fundada nos Estados Unidos, correspondendo à maior do mundo no que diz respeito à dedicação ao avanço da tecnologia em benefício da humanidade, com filiais em vários pontos do globo, sendo os seus principais sócios engenheiros eletrotécnicos e dos computadores, cientistas da computação, profissionais de telecomunicações. Tem atualmente abrangência sobre áreas como micro e nanotecnologias, ultrassom, bioengenharia, robótica, materiais eletrónicos, indo além da computação mais clássica, numa transfiguração que acompanha a evolução da sociedade e da realidade tal como a conhecemos. Conjuga a docência, na qual priveligia áreas relacionadas como Algoritmos e Complexidade, Bioinformática e Design de Circuitos Digitais, fazendo publicações de obras de autoria própria relacionadas com estas temáticas – “The Digital Mind”,  editado pelo MIT Press e IST Press, “Computer Architecture”, publicado pela World Scientific e pelo IST Press e a mais recente, “Inteligência Artificial”, publicada pela Fundação Francisco Manuel dos Santos. É, em simultâneo, autor de mais de 150 artigos científicos. Transforma-se em muitos, sendo agente da mudança. Faz parte da metamorfose.";
+  });
+}
+/*Zé Mágico*/
+if (magico.addEventListener) {
+  magico.addEventListener("click", function() {
+    n.innerText = "Zé Mágico";
+    d.innerText = "Quem melhor de falar sobre Metamorfose do que um mágico? Zé Mágico é o ilusionista orador da TEDx UniversidadedeCoimbra. Nascido na Covilhã, formou-se em Design do Mobiliário. No entanto, a sua vocação, já sabia, era outra. Descobriu o talento para a magia aos 15 anos e desde aí nunca mais parou. Autodidata, é o próprio que se dedica a criar os truques que apresenta nos espetáculos. Zé Mágico tem 4 espetáculos já criados. “O quê”, “Hiii”, “Farinha Mágica” e “1001 Truques” foram as criações artísticas do ilusionista. No entanto, também personaliza as atuações para que se adequem a casamentos, festas e eventos empresariais. Ficou conhecido no país inteiro pela sua participação n´”O programa da Cristina” na SIC em março do ano passado. Conta já com várias participações em programas de televisão e de rádio. Zé Mágico vai partilhar com o nosso público a sua experiência como mágico e deixar um rasto de magia na TEDx UniversidadedeCoimbra.";
+  });
+}
+
 
 
 
@@ -73,5 +100,14 @@ $(document).ready(function() {
     $('#goulds-img').attr('src', 'img/orators/Goulds1.jpg');
     $('#goulds-img').attr('onmouseover', false);
     $('#goulds-img').attr('onmouseout', false);
+    $('#filipa-img').attr('src', 'img/orators/Filipa1.jpg');
+    $('#filipa-img').attr('onmouseover', false);
+    $('#filipa-img').attr('onmouseout', false);
+    $('#arlindo-img').attr('src', 'img/orators/Arlindo1.jpg');
+    $('#arlindo-img').attr('onmouseover', false);
+    $('#arlindo-img').attr('onmouseout', false);
+    $('#magico-img').attr('src', 'img/orators/ZeMagico1.jpg');
+    $('#magico-img').attr('onmouseover', false);
+    $('#magico-img').attr('onmouseout', false);
   }
 });
