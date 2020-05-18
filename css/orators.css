@@ -119,7 +119,7 @@
   border-radius: 5px;
   z-index: 10;
   text-align: center;
-  top: 25vh;
+  top: 18vh;
 }
 
 .info-container h2 {
@@ -195,9 +195,9 @@
   }
 
   .info-container {
-    width: 70vw;
-    margin-left: 15vw;
-    top: 12vh;
+    width: 80vw;
+    margin-left: 10vw;
+    top: 8vh;
   }
 
   .info-container h2 {

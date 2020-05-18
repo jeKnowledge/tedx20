@@ -20,6 +20,9 @@ var goulds = document.getElementById("goulds");
 var filipa = document.getElementById("filipa");
 var arlindo = document.getElementById("arlindo");
 var magico = document.getElementById("magico");
+var lokas = document.getElementById("lokas");
+var patrao = document.getElementById("patrao");
+var biakosta = document.getElementById("biakosta");
 
 
 
@@ -79,6 +82,27 @@ if (magico.addEventListener) {
     d.innerText = "Quem melhor de falar sobre Metamorfose do que um mágico? Zé Mágico é o ilusionista orador da TEDx UniversidadedeCoimbra. Nascido na Covilhã, formou-se em Design do Mobiliário. No entanto, a sua vocação, já sabia, era outra. Descobriu o talento para a magia aos 15 anos e desde aí nunca mais parou. Autodidata, é o próprio que se dedica a criar os truques que apresenta nos espetáculos. Zé Mágico tem 4 espetáculos já criados. “O quê”, “Hiii”, “Farinha Mágica” e “1001 Truques” foram as criações artísticas do ilusionista. No entanto, também personaliza as atuações para que se adequem a casamentos, festas e eventos empresariais. Ficou conhecido no país inteiro pela sua participação n´”O programa da Cristina” na SIC em março do ano passado. Conta já com várias participações em programas de televisão e de rádio. Zé Mágico vai partilhar com o nosso público a sua experiência como mágico e deixar um rasto de magia na TEDx UniversidadedeCoimbra.";
   });
 }
+/*Lokas*/
+if (lokas.addEventListener) {
+  lokas.addEventListener("click", function() {
+    n.innerText = "Loka";
+    d.innerText = "Ana Paula Cruz, alma minhota, conhecida por Lokas tanto em contexto pessoal como profissional, é Médica. Cedo percebeu que ser médico é a profissão capaz de oferecer um elevado nível de altruísmo, capaz de transformar o mundo. Se não completamente, pelo menos um pouco mais. Tornou-se Mestre em Medicina pelo Instituto ciências Biomédicas Abel Salazar da Universidade do Porto, tempo durante o qual contactou pela primeira vez com as realidades de desigualdade em oportunidades e direitos do mundo, ao abraçar uma missão de voluntariado em África. É, atualmente, Interna de Formação Específica em “Medicina Geral e Familiar” no Centro de Saúde de Freamunde. Em 26 anos de vida, percorreu um número substancial de países e realidades, explanadas em muitas reportagens jornalísticas e que dão escrita aos mais conceitos jornais e revistas mundiais. Não constam, porém, no destino de sonho da maioria dos viajantes. E não por apenas estar ao alcance de minorias com grande poder económico. Muito pelo contrário. Por serem cenários de guerra de vozes caladas, deixadas à margem, onde já como médica participou em missões de resgate e salvamento a refugiados da guerra, que desde 2015 tentam chegar por mar e terra à Europa, numa procura sonhada por uma vida melhor. A Metamorfose da Atualidade tal como a conheceremos impera a preocupação, desassossego e intervenção de todos.";
+  });
+}
+/*Maria Patrão Neves*/
+if (patrao.addEventListener) {
+  patrao.addEventListener("click", function() {
+    n.innerText = "Maria Patrão Neves";
+    d.innerText = "Para nos elucidar sobre a tão necessária Metamorfose Pós-Pandemia, contaremos com a notória presença de Maria do Céu Patrão Neves, cujo percurso Filosófico e pelo mundo da Ética é irrepreensível. Professora Catedrática de Filosofia, na área da Ética, na Universidade dos Açores desde 2000, guarda no seu currículo académico e profissional imensas referências a nível nacional e também internacional, de entre as quais o cargo de perita em ética da Comissão Europeia e da UNESCO. Faz, ainda, parte da “European Ethics Network” e integra numerosas Comissões Editoriais de publicações nacionais e internacionais. Tem, em seu nome, numerosas publicações de livros e artigos de revista, bem como crónicas jornalísticas. Sendo uma voz preponderante na assistência ética à decisão médica em tempos de pandemia, tendo-se mostrado uma presença astuta na visão do problema de “racionalização” e &quot;racionamento&quot; não quererás perder esta Talk se também tu entendes a importância de todos estes conceitos! Ao longo da sua carreira académica desenvolveu regularmente uma participação cívica ativa com a qual, certamente, poderemos aprender largamente e mudar, também, a forma como encaramos algumas das questões mais importantes da Humanidade.";
+  });
+}
+/*Biakosta*/
+if (biakosta.addEventListener) {
+  biakosta.addEventListener("click", function() {
+    n.innerText = "Biakosta";
+    d.innerText = "Beatriz Costa, conhecida como biakosta, é designer, ilustradora e autora do livro de banda desenhada “Nova Geração de Designers”, um projeto inovador com base antropológica, em que a nossa oradora procurou compreender o papel da educação em design em Portugal, nas diversas faculdades. O próprio desenvolvimento deste livro começou por si – desenhou, escreveu e montou os primeiros exemplares. Depois, recorreu ao crowdfunding para imprimir e reproduzir o seu sonho. Quem melhor do que biakosta para nos elucidar sobre as formas mais criativas de transmitir informação? Sob o mote Metamorfose da Comunicação: Live Illustration, é isso mesmo que vamos mostrar-te. Formada em Design de Comunicação pela Faculdade de Belas Artes do Porto, com uma passagem na Faculdade de Belas Artes de Cracóvia, Beatriz dedica-se hoje à ilustração em simbiose com a educação. Leva o seu extraordinário percurso àquelas que procuram algo semelhante e partilham da paixão pelo design gráfico e comunicação, através dos seus vários workshops e palestras. Defende que com empenho tudo é alcançável, desde que encontremos aquilo que realmente nos move. Não percas a oportunidade de ouvir a sua Talk e compreender como transmitir mensagens assertivas ou a clarificar ideias complexas, por meio de desenhos divertidos e coloridos.";
+  });
+}
 
 
 
@@ -109,5 +133,14 @@ $(document).ready(function() {
     $('#magico-img').attr('src', 'img/orators/ZeMagico1.jpg');
     $('#magico-img').attr('onmouseover', false);
     $('#magico-img').attr('onmouseout', false);
+    $('#lokas-img').attr('src', 'img/orators/Lokas1.jpg');
+    $('#lokas-img').attr('onmouseover', false);
+    $('#lokas-img').attr('onmouseout', false);
+    $('#patrao-img').attr('src', 'img/orators/Patrao1.jpg');
+    $('#patrao-img').attr('onmouseover', false);
+    $('#patrao-img').attr('onmouseout', false);
+    $('#biakosta-img').attr('src', 'img/orators/Biakosta1.jpg');
+    $('#biakosta-img').attr('onmouseover', false);
+    $('#biakosta-img').attr('onmouseout', false);
   }
 });
