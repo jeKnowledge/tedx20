@@ -23,6 +23,7 @@ var magico = document.getElementById("magico");
 var lokas = document.getElementById("lokas");
 var patrao = document.getElementById("patrao");
 var biakosta = document.getElementById("biakosta");
+var gustavoF = document.getElementById("gustavof");
 
 
 
@@ -101,6 +102,13 @@ if (biakosta.addEventListener) {
   biakosta.addEventListener("click", function() {
     n.innerText = "Biakosta";
     d.innerText = "Beatriz Costa, conhecida como biakosta, é designer, ilustradora e autora do livro de banda desenhada “Nova Geração de Designers”, um projeto inovador com base antropológica, em que a nossa oradora procurou compreender o papel da educação em design em Portugal, nas diversas faculdades. O próprio desenvolvimento deste livro começou por si – desenhou, escreveu e montou os primeiros exemplares. Depois, recorreu ao crowdfunding para imprimir e reproduzir o seu sonho. Quem melhor do que biakosta para nos elucidar sobre as formas mais criativas de transmitir informação? Sob o mote Metamorfose da Comunicação: Live Illustration, é isso mesmo que vamos mostrar-te. Formada em Design de Comunicação pela Faculdade de Belas Artes do Porto, com uma passagem na Faculdade de Belas Artes de Cracóvia, Beatriz dedica-se hoje à ilustração em simbiose com a educação. Leva o seu extraordinário percurso àquelas que procuram algo semelhante e partilham da paixão pelo design gráfico e comunicação, através dos seus vários workshops e palestras. Defende que com empenho tudo é alcançável, desde que encontremos aquilo que realmente nos move. Não percas a oportunidade de ouvir a sua Talk e compreender como transmitir mensagens assertivas ou a clarificar ideias complexas, por meio de desenhos divertidos e coloridos.";
+  });
+}
+/*Gustavo Freitas*/
+if (gustavoF.addEventListener) {
+  gustavoF.addEventListener("click", function() {
+    n.innerText = "Gustavo Freitas";
+    d.innerText = "Sob o mote Metamorfose numa clara alusão à impactante alomorfia do século XXI que resume a constante mudança do mundo que coabitamos a partir do fluxo de novas ideias e criações, o TEDxUniversidadedeCoimbra contará com a participação de Gustavo Freitas, de vinte e seis anos, vencedor do concurso de oradores. No que lhe concerne, é jornalista, especialista em filosofia e direitos humanos, tendo concluído, recentemente, o mestrado em Jornalismo e Comunicação na Faculdade de Letras da Universidade de Coimbra. No que lhe respeita, aprofunda a sua intervenção em temas inerentes à comunicação e, mais concretamente, à existência de parcialidade, de disseminação de notícias falsas e falaciosas e que promovam, pela desinformação, situações hostis de violência e de desrespeito por valores de respeito e igualdade, debruçando-se também em temáticas que assolam o Brasil, o seu país-natal, e relativos à existência de descriminação face à sexualidade e género. Acresce salientar que, pelo facto de ter trabalhado como assessor de comunicação em Fortaleza, pôde dar azo à recolha de reportagens que encerrou numa obra intitulada Fortaleza de Todas, a qual debate e desnuda as desigualdades de género e a discriminação para com a comunidade LGBTI. Para além disso, é coautor do livro Abrigo dos Idosos, o qual surgiu também no âmbito de um projeto encetado aquando da sua licenciatura.";
   });
 }
 
